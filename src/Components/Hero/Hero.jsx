@@ -1,7 +1,7 @@
 import './Hero.css';
 const Hero = () => {
   return (
-    <section className=" hero-bg d-flex align-items-center justify-content-center">
+    <section className=" hero-bg d-flex align-items-center justify-content-center bg-body-tertiary">
       <img src="" alt="" />
       <div class="px-4 py-5 my-5 text-center">
         <h1 class="display-5 fw-bold text-body-emphasis">

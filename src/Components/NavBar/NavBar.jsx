@@ -11,7 +11,6 @@ const NavBar = () => {
           />
           Joshua Cooper
         </a>
-        <div className="container"></div>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,20 +23,20 @@ const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse d-flex justify-content"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
         >
-          <div className="navbar-nav fs-4 text m-2 ">
-            <a className="nav-link" href="#">
+          <div className="navbar-nav fs-4 text">
+            <a className="nav-link mx-3" href="#">
               Home
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link mx-3" href="#">
               About
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link mx-3" href="#">
               Projects
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link mx-3" href="#">
               Contact
             </a>
           </div>

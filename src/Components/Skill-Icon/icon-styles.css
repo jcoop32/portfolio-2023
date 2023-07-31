@@ -6,6 +6,7 @@
 }
 
 .icon-card:hover {
+  /* cursor: pointer; */
   border: 3px solid black;
   filter: none;
 }
