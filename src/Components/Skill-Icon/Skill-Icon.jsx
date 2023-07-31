@@ -1,6 +1,8 @@
+import React from 'react';
+import './icon-styles.css';
 const SkillIcon = ({ skill }) => {
   return (
-    <div className="m-2">
+    <div className="m-2 icon-card">
       <img
         src={require(`../Skill-Icon/Images/${skill.name}.png`)}
         alt={`${skill.name} icon`}
