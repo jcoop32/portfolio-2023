@@ -3,7 +3,12 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex">
       <div className="container-fluid ">
         <a className="navbar-brand fs-2 text" href="#">
-          <img className="d-inline-block align-text-top" />
+          <img
+            src="./C (1).png"
+            className="d-inline-block align-text-top"
+            width={50}
+            height={50}
+          />
           Joshua Cooper
         </a>
         <div className="container"></div>
