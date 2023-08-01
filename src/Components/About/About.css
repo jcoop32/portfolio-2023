@@ -1,3 +1,7 @@
 .arrow {
   margin-bottom: 10px;
 }
+
+.skill-box {
+  max-height: 500px;
+}

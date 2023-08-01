@@ -1,16 +1,24 @@
 .icon-bar {
   position: absolute;
-  top: 35%;
-  -webkit-transform: translateY(-35%);
-  -ms-transform: translateY(-35%);
-  transform: translateY(-35%);
+  top: 50%;
+}
+
+@media screen and (max-width: 770px) {
+  .icon-bar {
+    display: none;
+  }
+}
+@media screen and (max-height: 768px) {
+  .icon-bar {
+    display: none;
+  }
 }
 
 /* Style the icon bar links */
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 14px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;

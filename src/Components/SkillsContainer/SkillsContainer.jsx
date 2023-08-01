@@ -5,8 +5,10 @@ const SkillsContainer = ({ skills }) => {
   return (
     <>
       <h3 className="text-center">My Skills</h3>
-      <div className="d-flex flex-row flex-wrap align-content-center justify-content-center col">
-        {skill}
+      <div className="row">
+        <div className="d-flex flex-row flex-wrap align-content-center justify-content-center col-12">
+          {skill}
+        </div>
       </div>
     </>
   );

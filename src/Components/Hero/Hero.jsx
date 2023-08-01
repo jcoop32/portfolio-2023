@@ -22,7 +22,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="container d-flex justify-content-center align-items-start arrow">
-          <i class="fa-solid fa-arrow-down fa-bounce fa-2xl"></i>
+          <a href="#about">
+            <i class="fa-solid fa-arrow-down fa-bounce fa-2xl"></i>
+          </a>
         </div>
       </section>
     </>

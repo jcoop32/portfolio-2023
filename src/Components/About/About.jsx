@@ -45,7 +45,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div class="col-9 col-sm-6">
+          <div class="col-6">
             <SkillsContainer skills={skills} />
           </div>
         </div>
