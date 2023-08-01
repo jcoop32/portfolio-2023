@@ -29,12 +29,14 @@ const Projects = () => {
                       href=""
                       className="btn btn-primary mt-3 me-3"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Link
                     </a>
                     <a
                       href="https://github.com/jcoop32/shoecollector"
                       className="btn btn-primary mt-3 "
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       Repo Link
@@ -66,6 +68,7 @@ const Projects = () => {
                       href="https://rocky-beyond-05208-0615d6b7d815.herokuapp.com/"
                       className="btn btn-primary mt-3 me-3"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Link
                     </a>
@@ -73,6 +76,7 @@ const Projects = () => {
                       target="_blank"
                       href="https://github.com/jcoop32/stock-tracker"
                       className="btn btn-primary mt-3 "
+                      rel="noopener noreferrer"
                     >
                       Repo Link
                     </a>
@@ -102,6 +106,7 @@ const Projects = () => {
                       href="#"
                       className="btn btn-primary mt-3 me-3"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Link
                     </a>
@@ -109,6 +114,7 @@ const Projects = () => {
                       href="#"
                       className="btn btn-primary mt-3 "
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Repo Link
                     </a>
