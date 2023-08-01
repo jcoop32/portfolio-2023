@@ -1,13 +1,13 @@
+import './NavBar.css';
+
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex">
-      <div className="container-fluid ">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex align-items-center">
+      <div className="container-fluid">
         <a className="navbar-brand fs-2 text" href="#">
           <img
-            src="./C (1).png"
-            className="d-inline-block align-text-top"
-            width={50}
-            height={50}
+            src={require('../Footer/me.png')}
+            className="d-inline-block logo-icon-nav me-3"
           />
           Joshua Cooper
         </a>
