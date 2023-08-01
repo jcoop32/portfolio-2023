@@ -19,13 +19,13 @@ const About = () => {
   ];
   return (
     <section id="about" className="d-flex">
-      <div class="container col-xxl-8 px-4 py-5 justify-content-center align-items-center ">
-        <div class="row align-items-center g-5 py-5 flex-lg-row flex-column">
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+      <div className="container col-xxl-8 px-4 py-5 justify-content-center align-items-center ">
+        <div className="row align-items-center g-5 py-5 flex-lg-row flex-column">
+          <div className="col-lg-6">
+            <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               About Me
             </h1>
-            <p class="lead">
+            <p className="lead">
               I am a Full-Stack Software Engineer with a solid foundation in
               computer science, complemented by completion of a software
               engineering boot camp. With a quick learning ability, I excel at
@@ -34,18 +34,18 @@ const About = () => {
               overcome challenges and deliver effective solutions with
               remarkable results.
             </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <a href="mailto:joshuacooper332@gmail.com">
                 <button
                   type="button"
-                  class="btn btn-primary btn-lg px-4 me-md-2"
+                  className="btn btn-primary btn-lg px-4 me-md-2"
                 >
                   Contact
                 </button>
               </a>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div className="col-lg-6">
             <SkillsContainer skills={skills} />
           </div>
         </div>
