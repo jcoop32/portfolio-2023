@@ -21,9 +21,15 @@ const Projects = () => {
                   <div className="card-body mt-5">
                     <h5 className="card-title">ShoeBox</h5>
                     <p className="card-text mt-3">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      Powered by Python and Django, ShoeBox provides a seamless
+                      and user-friendly experience. Our use of PostgreSQL
+                      ensures that your valuable data is stored securely, while
+                      the sleek and modern Materialize CSS framework enhances
+                      the website's visual appeal. Whether you're a seasoned
+                      collector or just beginning your sneaker journey, ShoeBox
+                      has something for everyone. Discover the latest releases,
+                      manage your personal collection, and stay updated on
+                      upcoming drops and restocks.
                     </p>
                     <a
                       href=""
@@ -60,9 +66,13 @@ const Projects = () => {
                   <div className="card-body mt-5">
                     <h5 className="card-title">StockTrackr</h5>
                     <p className="card-text mt-3">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      The ultimate website for users to stay informed and track
+                      their favorite stocks in real-time. Built with MongoDB,
+                      Express.js, and Node.js. Through seamless API integration,
+                      we provide real-time stock prices, empowering you to make
+                      well-informed decisions. The intuitive Materialize CSS
+                      framework enhances the user experience, offering a modern
+                      and user-friendly interface for effortless navigation.
                     </p>
                     <a
                       href="https://rocky-beyond-05208-0615d6b7d815.herokuapp.com/"
@@ -89,21 +99,26 @@ const Projects = () => {
               <div className="row g-2">
                 <div className="col-md-6">
                   <img
-                    src={require('./Screenshots/shoeBox.png')}
+                    src={require('./Screenshots/blackjack.png')}
                     className="img-fluid rounded-start"
-                    alt="..."
+                    alt="blackjack screenshot"
                   />
                 </div>
                 <div className="col-md-6">
                   <div className="card-body mt-5">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">Blackjack</h5>
                     <p className="card-text mt-3">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      The perfect place to sharpen your blackjack skills! This
+                      website represents my first side-project of an ambitious
+                      developer who had recently conquered the fundamentals of
+                      HTML, CSS, and JavaScript. Utilizing a tech stack,
+                      including HTML, CSS, JavaScript, jQuery, and the Bootstrap
+                      CSS framework, The webiste offers a user-friendly
+                      interface and engaging features to help players of all
+                      levels enhance their blackjack expertise.
                     </p>
                     <a
-                      href="#"
+                      href="https://quiet-dieffenbachia-78d9d0.netlify.app/"
                       className="btn btn-primary mt-3 me-3"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -111,7 +126,7 @@ const Projects = () => {
                       Live Link
                     </a>
                     <a
-                      href="#"
+                      href="https://github.com/jcoop32/blackjack-browser"
                       className="btn btn-primary mt-3 "
                       target="_blank"
                       rel="noopener noreferrer"

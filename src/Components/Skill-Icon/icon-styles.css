@@ -1,15 +1,15 @@
-.icon-card {
+/* .icon-card {
   border: 3px solid gray;
   padding: 5px;
   border-radius: 10px;
-  /* filter: grayscale(100%); */
+  filter: grayscale(100%);
 }
 
 .icon-card:hover {
-  /* cursor: pointer; */
+  cursor: pointer;
   border: 3px solid black;
   filter: none;
-}
+} */
 
 @media screen and (max-width: 325px) {
   .text {
