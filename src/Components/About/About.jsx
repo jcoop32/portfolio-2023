@@ -18,12 +18,9 @@ const About = () => {
     // { name: 'MySQL', icon: 'https://icons8.com/icon/20906/git' },
   ];
   return (
-    <section id="about" className="">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <SkillsContainer skills={skills} />
-          </div>
+    <section id="about" className="d-flex">
+      <div class="container col-xxl-8 px-4 py-5 justify-content-center align-items-center ">
+        <div class="row align-items-center g-5 py-5 flex-lg-row">
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               About Me
@@ -47,6 +44,9 @@ const About = () => {
                 </button>
               </a>
             </div>
+          </div>
+          <div class="col-9 col-sm-6">
+            <SkillsContainer skills={skills} />
           </div>
         </div>
       </div>
