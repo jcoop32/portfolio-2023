@@ -25,10 +25,18 @@ const Projects = () => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <a href="#" class="btn btn-primary mt-3 me-3">
+                    <a
+                      href="https://shoecollector-shoebox-39b978c7d635.herokuapp.com/"
+                      class="btn btn-primary mt-3 me-3"
+                      target="_blank"
+                    >
                       Live Link
                     </a>
-                    <a href="#" class="btn btn-primary mt-3 ">
+                    <a
+                      href="https://github.com/jcoop32/shoecollector"
+                      class="btn btn-primary mt-3 "
+                      target="_blank"
+                    >
                       Repo Link
                     </a>
                   </div>
@@ -54,10 +62,18 @@ const Projects = () => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <a href="#" class="btn btn-primary mt-3 me-3">
+                    <a
+                      href="https://rocky-beyond-05208-0615d6b7d815.herokuapp.com/"
+                      class="btn btn-primary mt-3 me-3"
+                      target="_blank"
+                    >
                       Live Link
                     </a>
-                    <a href="#" class="btn btn-primary mt-3 ">
+                    <a
+                      target="_blank"
+                      href="https://github.com/jcoop32/stock-tracker"
+                      class="btn btn-primary mt-3 "
+                    >
                       Repo Link
                     </a>
                   </div>
@@ -82,10 +98,14 @@ const Projects = () => {
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <a href="#" class="btn btn-primary mt-3 me-3">
+                    <a
+                      href="#"
+                      class="btn btn-primary mt-3 me-3"
+                      target="_blank"
+                    >
                       Live Link
                     </a>
-                    <a href="#" class="btn btn-primary mt-3 ">
+                    <a href="#" class="btn btn-primary mt-3 " target="_blank">
                       Repo Link
                     </a>
                   </div>

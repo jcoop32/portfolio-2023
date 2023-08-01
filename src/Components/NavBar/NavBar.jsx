@@ -2,9 +2,12 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex align-items-center">
+    <nav
+      className="navbar navbar-expand-lg d-flex align-items-center"
+      id="home"
+    >
       <div className="container-fluid">
-        <a className="navbar-brand fs-2 text" href="#">
+        <a className="navbar-brand fs-2 text name" href="#">
           <img
             src={require('../Footer/me.png')}
             className="d-inline-block logo-icon-nav me-3"
@@ -27,16 +30,16 @@ const NavBar = () => {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav fs-4 text">
-            <a className="nav-link mx-3" href="#">
+            <a className="nav-link mx-3" href="#home">
               Home
             </a>
-            <a className="nav-link mx-3" href="#">
+            <a className="nav-link mx-3" href="#about">
               About
             </a>
-            <a className="nav-link mx-3" href="#">
+            <a className="nav-link mx-3" href="#projects">
               Projects
             </a>
-            <a className="nav-link mx-3" href="#">
+            <a className="nav-link mx-3" href="#footer">
               Contact
             </a>
           </div>

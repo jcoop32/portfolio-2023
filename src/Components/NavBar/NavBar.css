@@ -3,3 +3,8 @@
   border-radius: 100px;
   margin-left: 10px;
 }
+
+.name:hover {
+  color: purple;
+  transition: 0.9s;
+}
