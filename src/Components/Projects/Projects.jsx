@@ -32,7 +32,7 @@ const Projects = () => {
                       upcoming drops and restocks.
                     </p>
                     <a
-                      href=""
+                      href="https://shoecollector-shoebox-39b978c7d635.herokuapp.com/"
                       className="btn btn-primary mt-3 me-3"
                       target="_blank"
                       rel="noopener noreferrer"
