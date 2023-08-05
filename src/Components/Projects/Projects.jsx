@@ -113,7 +113,7 @@ const Projects = () => {
                       developer who had recently conquered the fundamentals of
                       HTML, CSS, and JavaScript. Utilizing a tech stack,
                       including HTML, CSS, JavaScript, jQuery, and the Bootstrap
-                      CSS framework, The webiste offers a user-friendly
+                      CSS framework, The website offers a user-friendly
                       interface and engaging features to help players of all
                       levels enhance their blackjack expertise.
                     </p>
