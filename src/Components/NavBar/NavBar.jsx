@@ -39,7 +39,7 @@ const NavBar = () => {
             <a className="nav-link mx-3" href="#projects">
               Projects
             </a>
-            <a className="nav-link mx-3" href="#footer">
+            <a className="nav-link mx-3" href="#contact">
               Contact
             </a>
           </div>
