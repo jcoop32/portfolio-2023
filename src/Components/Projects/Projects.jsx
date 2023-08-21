@@ -12,6 +12,50 @@ const Projects = () => {
               <div className="row g-2">
                 <div className="col-md-6">
                   <img
+                    src={require('./Screenshots/twetter.png')}
+                    className="img-fluid rounded-start"
+                    alt="Tweetter screenshot"
+                  />
+                </div>
+                <div className="col-md-6">
+                  <div className="card-body mt-5">
+                    <h5 className="card-title">Tweetter (Twitter Clone)</h5>
+                    <p className="card-text mt-3">
+                      Introducing Tweetter, a dynamic web app that reimagines
+                      microblogging, harnessing the capabilities of Ruby, Ruby
+                      on Rails, embedded Ruby, Bootstrap, and PostgreSQL.
+                      Seamlessly navigate through a user-friendly interface
+                      where interactions come to life, enabling you to
+                      effortlessly craft and share your thoughts. Leveraging the
+                      power of PostgreSQL, Tweetter offers a reliable and
+                      scalable database backend.
+                    </p>
+                    <a
+                      href="https://secret-ridge-86986-7b334cd5e048.herokuapp.com/"
+                      className="btn btn-primary mt-3 me-3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Live Link
+                    </a>
+                    <a
+                      href="https://github.com/jcoop32/twitter-clone"
+                      className="btn btn-primary mt-3 "
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Repo Link
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            {/* Project 2 */}
+            <div className="card mb-3 w-100">
+              <div className="row g-2">
+                <div className="col-md-6">
+                  <img
                     src={require('./Screenshots/shoeBox.png')}
                     className="img-fluid rounded-start"
                     alt="ShoeBox screenshot"
@@ -52,7 +96,7 @@ const Projects = () => {
               </div>
             </div>
             {/*  */}
-            {/* Project 2 */}
+            {/* Project 3 */}
             <div className="card mb-3 w-100">
               <div className="row g-2">
                 <div className="col-md-6">
@@ -94,7 +138,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            {/* Project 3 */}
+            {/* Project 4 */}
             <div className="card mb-3 w-100">
               <div className="row g-2">
                 <div className="col-md-6">
