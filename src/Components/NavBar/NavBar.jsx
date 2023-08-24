@@ -39,6 +39,15 @@ const NavBar = () => {
             <a className="nav-link mx-3" href="#projects">
               Projects
             </a>
+            <a
+              className="nav-link mx-3"
+              href={require('./joshua-cooper-resume.pdf')}
+              rel="noopener noreferrer"
+              target="_blank"
+              download="Joshua-Cooper-Resume"
+            >
+              Resume
+            </a>
             <a className="nav-link mx-3" href="#contact">
               Contact
             </a>
