@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="album py-5 ">
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-0">
-            {/* Project 1 */}
+            {/* Tweetter Project */}
             <div className="card mb-3 w-100">
               <div className="row g-2">
                 <div className="col-md-6">
@@ -51,7 +51,7 @@ const Projects = () => {
               </div>
             </div>
             {/*  */}
-            {/* Project 2 */}
+            {/* ShoeBox */}
             <div className="card mb-3 w-100">
               <div className="row g-2">
                 <div className="col-md-6">
@@ -96,7 +96,7 @@ const Projects = () => {
               </div>
             </div>
             {/*  */}
-            {/* Project 3 */}
+            {/* Stocktrackr */}
             <div className="card mb-3 w-100">
               <div className="row g-2">
                 <div className="col-md-6">
@@ -138,7 +138,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            {/* Project 4 */}
+            {/* Blackjack */}
             <div className="card mb-3 w-100">
               <div className="row g-2">
                 <div className="col-md-6">
