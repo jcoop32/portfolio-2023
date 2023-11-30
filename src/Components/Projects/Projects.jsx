@@ -119,7 +119,7 @@ const Projects = () => {
                       and user-friendly interface for effortless navigation.
                     </p>
                     <a
-                      href="https://rocky-beyond-05208-0615d6b7d815.herokuapp.com/"
+                      href="http://stock-tracker-dev.eba-pzcmhhke.us-east-2.elasticbeanstalk.com/"
                       className="btn btn-primary mt-3 me-3"
                       target="_blank"
                       rel="noopener noreferrer"
