@@ -162,7 +162,7 @@ const Projects = () => {
                       levels enhance their blackjack expertise.
                     </p>
                     <a
-                      href="https://quiet-dieffenbachia-78d9d0.netlify.app/"
+                      href="http://blackjack-s3.s3-website.us-east-2.amazonaws.com/"
                       className="btn btn-primary mt-3 me-3"
                       target="_blank"
                       rel="noopener noreferrer"
